@@ -1,0 +1,13 @@
+
+// name: Sapling
+
+// type: flying
+
+// health: 1580
+
+speed: 3.0
+
+accel: 0.7
+drag: 0.1
+
+alwaysUnlocked: true

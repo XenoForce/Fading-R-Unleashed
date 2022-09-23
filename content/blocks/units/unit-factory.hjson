@@ -1,0 +1,45 @@
+type: UnitFactory
+name: Unit Factory (Fading Revelations)
+description: Unit Factory (Fading Revelations)
+
+health: 99000
+size: 3
+itemCapacity: 30
+
+consumes: {}
+
+plans: [
+	{ unit: me-delta         , time: 90, requirements: [] }    // (type: flying)  (health:  260)
+	{ unit: me-epsilon       , time: 90, requirements: [] }    // (type: flying)  (health:  310)
+	
+	{ unit: me-hive-support  , time: 90, requirements: [] }    // (type: flying)  (health:   310)
+	{ unit: me-hive-attack   , time: 90, requirements: [] }    // (type: flying)  (health:  1070)
+	{ unit: me-hive          , time: 90, requirements: [] }    // (type: flying)  (health:  9100)
+	
+	{ unit: me-tentacle      , time: 90, requirements: [] }    // (type: flying)  (health:  10000)
+	{ unit: me-sps           , time: 90, requirements: [] }    // (type: flying)  (health:  11000)  (aka: "Orbital Platform Strahl")
+	{ unit: me-king          , time: 90, requirements: [] }    // (type: flying)  (health:  20000)
+	{ unit: me-king-t2       , time: 90, requirements: [] }    // (type: flying)  (health:  25000)
+	
+	{ unit: me-cryo-crawler  , time: 90, requirements: [] }    // (type: legs)  (health:    660)
+	{ unit: me-fire-crawler  , time: 90, requirements: [] }    // (type: legs)  (health:    660)
+	{ unit: me-corax         , time: 90, requirements: [] }    // (type: legs)  (health:  18000)
+	{ unit: me-test          , time: 90, requirements: [] }    // (type: legs)  (health:  22000)  (aka: Lycosid)
+	
+	{ unit: me-close-range   , time: 90, requirements: [] }    // (type: flying)  (health:    85)  (aka: Alopex)
+	{ unit: me-lancer-drone  , time: 90, requirements: [] }    // (type: flying)  (health:   200)  (aka: Areus)
+	{ unit: me-seed          , time: 90, requirements: [] }    // (type: flying)  (health:   250)
+	{ unit: me-sapling       , time: 90, requirements: [] }    // (type: flying)  (health:   680)  (aka: Sprout)
+	{ unit: me-plant         , time: 90, requirements: [] }    // (type: flying)  (health:  1580)  (aka: Sapling)
+	{ unit: me-kestrel       , time: 90, requirements: [] }    // (type: flying)  (health:  2000)
+	
+	{ unit: me-carrier-flagship , time: 90, requirements: [] }    // (type: naval)  (health:  5800)
+]
+
+requirements: []
+buildCostMultiplier: 0.1
+
+category: units
+research: duo
+
+alwaysUnlocked: true
